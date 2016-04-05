@@ -3,8 +3,9 @@
 # число або порожній рядок. Функція повертає ціле число
 # (якщо воно було введене) або None (якщо нічого введено не було)
 def input_int(pidkazka):
-    # ...
-    pass
+    pidkazka = int()    
+    print("Введіть ціле число!")
+    return pidkazka
 
 if __name__=='__main__':
     x=input_int('Введіть x')
