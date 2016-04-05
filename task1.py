@@ -20,4 +20,3 @@ while True:
         break
     if total:
         print("Сумма введених чисел =", total)
-        break
