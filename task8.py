@@ -4,3 +4,15 @@
 
 # 2. Ще одна функція з такими ж параметрами,
 # але знаходить не найменше, а найбільше число.
+
+def min(m, n, k):
+    for i in range(m, n,):
+        if i % k == int():
+            return(i)
+print(min(10, 30, 7))
+
+def min(m, n, k):
+    for i in range(n, m, - 1):
+        if i % k == int():
+            return(i)
+print(min(10, 30, 7))
