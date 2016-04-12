@@ -5,14 +5,16 @@
 # 2. Ще одна функція з такими ж параметрами,
 # але знаходить не найменше, а найбільше число.
 
-def min(m, n, k):
-    for i in range(m, n,):
-        if i % k == int():
+def min_num(m, n, k):
+    for i in range(m, n+1):
+        if i % k == 0:
             return(i)
-print(min(10, 30, 7))
+print(min_num(10, 30, 7))
 
-def min(m, n, k):
-    for i in range(n, m, - 1):
-        if i % k == int():
+
+
+def max_num(m, n, k):
+    for i in range(n, m-1, - 1):
+        if i % k == 0:
             return(i)
-print(min(10, 30, 7))
+print(max_num(10, 30, 7))
